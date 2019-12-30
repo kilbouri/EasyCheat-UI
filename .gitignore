@@ -1,0 +1,13 @@
+# VS Code cache
+.vscode/
+
+# Unity folders that are not necessary to be uploaded
+Library/
+obj/
+Logs/
+
+# Ignore Unity's solutions and assemblies.
+*.csproj
+Tetris Attack AMPED.sln
+
+Temp/
