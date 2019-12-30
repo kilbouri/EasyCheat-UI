@@ -3,7 +3,7 @@
 
 2. Done!
 
-================================================================================================================================================================================================
+===================================================================================
 
 To create a new cheat:
 1. Drag the appropriate prefab (toggle or button) to the proper section in the UI (either "Cheats(Buttons)" or "Cheats(Toggles)"). Then append "-(30*n)" where n is the number of cheats of that type already in the column to "Pos Y" on the Rect Transform component.
@@ -16,12 +16,12 @@ To create a new cheat:
 
 5. You're done! Just hit F10 when you are in the game and the UI will come up :)
 
-================================================================================================================================================================================================
+===================================================================================
 
 Test Scene information:
 You will need to comment out two "throw" statements - one in Cheats.cs (5) and one in Cheats UI Manager.cs (43)
 
-================================================================================================================================================================================================
+===================================================================================
 
 Liscense:
 Made by VoidVenom (Void, Captain Void, VoidVenom777, Void Venom) for User335 - feel free to copy and use for free!
