@@ -10,8 +10,14 @@ namespace Cheats {
         public KeyCode toggleKey = KeyCode.F10;
         public Animator animator;
 
+        private bool firstRun = true;
+
         void Update () {
             if (Input.GetKeyDown(toggleKey)) {
+                if (firstRun) {
+                    animator.SetFloat("initial", 1);
+                    firstRun = false;
+                }
                 showCheatsUI = !showCheatsUI;
                 VerifyCheatsUI();
             }

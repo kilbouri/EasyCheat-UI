@@ -1411,7 +1411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6cdeb331baa1384f9cd65356e2b232d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  showCheatsUI: 1
+  showCheatsUI: 0
   parent: {fileID: 1274857640}
   toggleKey: 291
   animator: {fileID: 1800811023}
