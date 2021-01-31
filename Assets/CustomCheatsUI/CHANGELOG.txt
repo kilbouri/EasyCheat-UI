@@ -1,0 +1,12 @@
+EasyCheat UI v1
+-----------------
+- Initial Release
+
+EasyCheat UI v1.1
+-----------------
+- Added documentation for Asset Store release
+- Simplified Menu Folding
+	- now uses Mathf.Lerp instead of the Unity Animation system (what the heck was I thinking?)
+- Reworked prefabs for easier editing
+	- moved the Button component to the top level of prefabs
+	- the label is now the only child of the prefab

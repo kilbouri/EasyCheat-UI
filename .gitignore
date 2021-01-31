@@ -1,5 +1,6 @@
 # VS Code cache
 .vscode/
+.vs/
 
 # Unity folders that are not necessary to be uploaded
 Library/
